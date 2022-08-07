@@ -2,7 +2,7 @@ version: '3.1'
 
 services:
   springboot:
-    image: krishnapuppala97/spring_boot:14
+    image: krishnapuppala97/spring_boot
     restart: always # This will be ignored if we deploy in docker swarm
     ports:
       - 8081:8080
